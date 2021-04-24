@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package actividad_3;
-import java.util.Scanner;
+
 /**
  *
  * @author Jairo
@@ -29,7 +29,7 @@ public class Actividad_3 {
       dias.dias();
       Tarea_3 modelo = new Tarea_3();
       modelo.modelo();
-    }
+   }
 }
 
 

@@ -64,7 +64,7 @@ public class Tarea_3 {
          double media;
          double suma = 0;
          for (double i: numeros){
-         suma =suma+1;
+         suma = suma+i;
              }
          media = suma / n;
          System.out.println(" la media es: " + media);}
@@ -131,6 +131,7 @@ public class Tarea_3 {
                 System.out.print("_" + " ");
             }
             System.out.println("");
+            
         }
 }  
     }
