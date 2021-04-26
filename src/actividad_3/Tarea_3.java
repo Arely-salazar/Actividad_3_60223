@@ -10,28 +10,49 @@ import java.util.Scanner;
  * @author Jairo
  */
 public class Tarea_3 {
+
+    private static void Actividad_3(int nextInt) {
+        
+    }
+    int encabezado;
     int suma;
     int factorial;
     int fac;
     int media;
     int numeros;
     int dias;
-    int modelo;
+    int modelo; {
+}
+    //encabezado 
+    public static void encabezado(){
+    System.out.println("***************************************************");
+        System.out.println("**********          Bienvenido           **********");
+        System.out.println("***************************************************");   
+    System.out.println("Universidad Autonóma de Campeche");
+        System.out.println("Facultad de Ingeniería");
+        System.out.println("Ingeniería de Sistemas Computacionales");
+        System.out.println("Abril 2021");
+        System.out.println(""); 
+    }
+ 
 //suma del 0 al 10//
     public static void suma(){
     int suma = 0;
     int i;
     for ( i = 1; i <= 10; i++) {
     suma = i + suma ;}
-    System.out.println("La suma de los numeros del 1 hasta el 10 es de: " + suma);}
-    
+    System.out.println("La suma de los numeros del 1 hasta el 10 es de: " + suma);
+     System.out.println("");}
+
+
 // factorial del 1 al 0     
     public static void factorial(){
          int factorial = 1;
          for (int i = 10; i >= 1; i--) {
          factorial *= i;
     }
-          System.out.println("El factorial de  10 es de: " + factorial);}
+          System.out.println("El factorial de  10 es de: " + factorial);
+          System.out.println("");}
  
 //factorial de un número introducido por el usuario
     public static void fac(){
@@ -42,7 +63,8 @@ public class Tarea_3 {
          for (int i = num ; i >= 1; i--) {
          factorial *= i;
     }
-         System.out.println("El factorial de " + num +  " es: " + factorial);}
+         System.out.println("El factorial de " + num +  " es: " + factorial);
+         System.out.println("");}
     
  
 //calcular la media de una suma del 0 hasta el número introducido por el usuario
@@ -67,7 +89,8 @@ public class Tarea_3 {
          suma = suma+i;
              }
          media = suma / n;
-         System.out.println(" la media es: " + media);}
+         System.out.println(" la media es: " + media);
+         System.out.println("");}
  
 // Pedir un número y leer n veces números, realizar la suma de los números, 
 //sacar el promedi y determinar cuál número introducido es el mayor y cuál
@@ -81,6 +104,7 @@ public class Tarea_3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("ingrese la cantidad de números que desea sumar: ");
         numeros = sc.nextInt();
+        
         System.out.println("ingrese los números: ");
          for (int i = 0; i < numeros; i++) {
             num= sc.nextInt();
@@ -106,8 +130,9 @@ public class Tarea_3 {
         //diferencia entre el número mayor y menor
         int diferencia;
         diferencia = mayor- menor;
-        System.out.println("La diferecnia entre el número mayor y menor es: " + diferencia);
-    }
+        System.out.println("La diferencia entre el número mayor y menor es: " + diferencia);
+        System.out.println("");}
+    
 // areglo con los días de la semana
     public static void dias(){
      String dia[]= new String [7];
@@ -121,7 +146,8 @@ public class Tarea_3 {
         
         for (String dias: dia) {
         System.out.print( dias);}
-    }
+        System.out.println("");}
+    
  // modelo del juego gato
     public static void modelo(){
         String modelo[][] = new String[3][3];
@@ -134,6 +160,8 @@ public class Tarea_3 {
             
         }
 }  
+
+    
     }
 
     
